@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+.venv/
+venv/
+env/
+
+# Secrets and local configuration
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Large source and processed datasets
+data/raw/
+data/processed/cleaned/*.parquet
+data/processed/*.parquet
+outputs/**/*.csv
+outputs/**/*.pdf
+outputs/**/*.html
+outputs/**/*.log
+
+# Notebook/runtime artifacts
+.ipynb_checkpoints/
+.DS_Store
+*.log
